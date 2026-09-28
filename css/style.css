@@ -10,12 +10,10 @@
 a {
 	text-decoration: none;
 	display: inline-block;
-	color: unset;
 	cursor: pointer;
 	
 	&:hover {
 		text-decoration: underline;
-		color: #551A8B;
 	}
 }
 
@@ -81,4 +79,10 @@ body {
 		font-size: 0.95rem;
 		line-height: 1.4;
 	}
+}
+
+.spicy-bool {
+	color: red;
+	padding-top: 2rem;
+	font-size: 0.8rem;
 }
